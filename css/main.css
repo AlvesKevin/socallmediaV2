@@ -1,0 +1,417 @@
+html body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page1{
+  width: 100%;
+  height: 705px;
+  background-image: url("/img/backgroundPage1Header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.header{
+  background-image: url("/img/headerBackground.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logoHeader{
+  width: 400px;
+  height: 80px;
+  margin: 15px;
+}
+
+#ongletHeader{
+  display: flex;
+  width: 25%;
+  height: 20px;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-top: 50px;
+  color: white;
+}
+
+#boutonHeader{
+  box-sizing: border-box;
+  width: 179px;
+  height: 70px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 25px;
+  padding-top: 10px;
+  margin-right: 15px;
+}
+
+#titrePage1{
+  font-size: 35px;
+  width: 500px;
+  height: 50px;
+  margin: 20px auto;
+  color: #FFFFFF;
+}
+
+#paragraphePage1{
+  font-size: 20px;
+  width: 70%;
+  height: 50px;
+  margin: 50px auto;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#boutonPage1{
+  box-sizing: border-box;
+  width: 179px;
+  height: 70px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin: 100px auto;
+  padding-top: 10px;
+}
+
+#elementBackground{
+  width: 100%;
+  height: 55px;
+  position: absolute;
+  bottom: 245px;
+}
+
+.page2{
+  width: 100%;
+  height: 1900px;
+  background-color: #ffffff;
+}
+
+#bandeauPage2{
+  width: 1400px;
+  height: 500px;
+  background-image: url("/img/bandeauPage2.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 100px auto;
+}
+
+#bandeauPage2 h1{
+  margin-left: 100px;
+  padding-top: 80px;
+  color: white;
+  font-size: 30px;
+}
+
+#bandeauPage2 p{
+  width: 90%;
+  padding-top: 20px;
+  margin-left: 100px;
+  color: white;
+  font-size: 18px;
+}
+
+#boutonBandeauPage2{
+  box-sizing: border-box;
+  width: 179px;
+  height: 70px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  float: right;
+  margin-right: 60px;
+}
+
+#texteNosServices{
+  width: 40%;
+  height: 200px;
+  margin-left: 250px;
+}
+
+#containerVignette{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+/*Vignette 1*/
+
+
+#vignette1{
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #0e95e8;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: unset;
+  z-index: 2;
+}
+
+#vignette1 h1{
+  padding-top: 25px;
+  margin-left: 25px;
+}
+
+/*Container picto 1*/
+
+#container1Picto{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#container1Picto:hover{
+  background-color: #24a3fa;
+}
+
+#picto1{
+  width: 85px;
+  padding-left: 20px;
+}
+
+#texteContainerPicto1{
+  font-size: 25px;
+  padding-left: 30px;
+}
+
+/*Container picto 2*/
+
+#container2Picto{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#container2Picto:hover{
+  background-color: #24a3fa;
+}
+
+#picto2{
+  width: 85px;
+  padding-left: 20px;
+}
+
+#texteContainerPicto2{
+  font-size: 25px;
+  margin-top: 25px;
+  padding-left: 30px;
+}
+
+/*Container picto 3*/
+
+#container3Picto{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+#container3Picto:hover{
+  background-color: #24a3fa;
+}
+
+#picto3{
+  width: 85px;
+  padding-left: 20px;
+}
+
+#texteContainerPicto3{
+  font-size: 25px;
+  margin-top: 30px;
+  padding-left: 30px;
+}
+
+/*Bouton vignette1*/
+
+#boutonVignette1{
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  float: right;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+/*vignette 2*/
+
+#vignette2{
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #2cabc0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 100px;
+}
+
+#vignette2 h1{
+  padding-top: 25px;
+  margin-left: 25px;
+}
+
+#texteVignette2{
+  margin-left: 25px;
+  font-size: 20px;
+  width: 80%;
+}
+
+#boutonVignette2{
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  float: right;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+/*vignette 3*/
+
+#vignette3{
+  width: 400px;
+  height: 500px;
+  border-radius: 50px;
+  background-color: #323232;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 40px;
+}
+
+#vignette3 h1{
+  padding-top: 25px;
+  margin-left: 25px;
+}
+
+#texteVignette3{
+  margin-left: 25px;
+  font-size: 20px;
+  width: 80%;
+}
+
+#boutonVignette3{
+  box-sizing: border-box;
+  width: 150px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  float: right;
+  margin-left: 200px;
+  margin-top: 120px;
+}
+
+#containerInfoSocallmedia{
+  width: 80%;
+  display: flex;
+  margin-left: 250px;
+  margin-top: 100px;
+  justify-content: space-between;
+
+}
+
+#containerTexteBouton{
+  width: 40%;
+}
+
+#boutonInfoSocallmedia{
+  box-sizing: border-box;
+  width: 180px;
+  height: 75px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  padding-top: 10px;
+  float: left;
+  margin-top: 50px;
+}
+
+.footer{
+  width: 100%;
+  height: 300px;
+  margin-top: 300px;
+  background-image: url("/img/footerBackground.svg");
+}
+
+
+
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0f96e6 #fdfdfe;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0f96e7;
+  border-radius: 20px;
+  border: 3px solid #ffffff;
+}
