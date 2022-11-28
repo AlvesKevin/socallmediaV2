@@ -1,8 +1,17 @@
-html body{
+html body {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
     width: 100%;
+}
+
+#imageHeader{
+    width: 100%;
+    height: 550px;
+    background-image: url("/img/illustrationTelemarketing.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .header{
@@ -49,16 +58,6 @@ html body{
     margin-right: 15px;
 }
 
-#imageHeader{
-    width: 100%;
-    height: 550px;
-    background-image: url("/img/backgroundLeads.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-
 #containerTexte{
     margin: 0 auto;
     width: 76%;
@@ -67,10 +66,6 @@ html body{
 
 #containerServicesEtImage{
     width: 100%;
-}
-
-.texteServices{
-    width: 40%;
 }
 
 .containerImgDroite{
@@ -93,6 +88,33 @@ html body{
 
 .containerImgGauche img{
     width: 40%;
+}
+
+.texteServices{
+    width: 40%;
+}
+
+#containerTexteFooter{
+    width: 76%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#boutonFooter{
+    box-sizing: border-box;
+    width: 179px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    margin: 0 auto;
 }
 
 footer{
@@ -165,5 +187,3 @@ footer{
 }
 
 /*-----------------------------------*/
-
-
