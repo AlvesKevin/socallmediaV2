@@ -4,19 +4,23 @@ html body{
   font-family: 'Poppins', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .page1{
   width: 100%;
   height: 705px;
   background-image: url("/img/backgroundPage1Header.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
 }
 
 .header{
   background-image: url("/img/headerBackground.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   height: 180px;
   display: flex;
@@ -31,11 +35,23 @@ html body{
 
 #ongletHeader{
   display: flex;
-  width: 25%;
+  width: 35%;
   height: 20px;
   justify-content: space-between;
   font-size: 18px;
   margin-top: 50px;
+  color: white;
+}
+
+#ongletAccueil{
+  color: white;
+}
+
+#ongletQuiSommesNous{
+  color: white;
+}
+
+#ongletNosServices{
   color: white;
 }
 
@@ -100,17 +116,15 @@ html body{
 
 .page2{
   width: 100%;
-  height: 1900px;
   background-color: #ffffff;
 }
 
 #bandeauPage2{
-  width: 1400px;
+  width: 80%;
   height: 500px;
-  background-image: url("/img/bandeauPage2.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-color: #2cabc0;
   margin: 100px auto;
+  border-radius: 50px;
 }
 
 #bandeauPage2 h1{
@@ -125,19 +139,19 @@ html body{
   padding-top: 20px;
   margin-left: 100px;
   color: white;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 #boutonBandeauPage2{
   box-sizing: border-box;
-  width: 179px;
-  height: 70px;
+  width: 185px;
+  height: 80px;
   background: #FFFFFF;
   border: 2px solid #000000;
   border-radius: 50px;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 24px;
   text-align: center;
   color: #000000;
@@ -149,7 +163,7 @@ html body{
 #texteNosServices{
   width: 40%;
   height: 200px;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 #containerVignette{
@@ -179,6 +193,8 @@ html body{
   padding-top: 25px;
   margin-left: 25px;
 }
+
+
 
 /*Container picto 1*/
 
@@ -361,7 +377,6 @@ html body{
   margin-left: 250px;
   margin-top: 100px;
   justify-content: space-between;
-
 }
 
 #containerTexteBouton{
@@ -389,7 +404,7 @@ html body{
 .footer{
   width: 100%;
   height: 300px;
-  margin-top: 300px;
+  margin-top: 100px;
   background-image: url("/img/footerBackground.svg");
   display: flex;
   justify-content: space-between;
@@ -431,7 +446,554 @@ html body{
   width: 100%;
   text-align: center;
   background: rgb(44,172,193);
-  background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);}
+  background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);
+}
+
+@media (max-width: 1100px) {
+  #ongletHeader {
+    display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  #bandeauPage2{
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+    margin-bottom: 50px;
+  }
+
+  #bandeauPage2 h1{
+    margin-left: 80px;
+    padding-top: 50px;
+    color: white;
+    font-size: 20px;
+  }
+
+  #bandeauPage2 p{
+    width: 80%;
+    padding-top: 10px;
+    margin-left: 80px;
+    color: white;
+    font-size: 14px;
+  }
+
+  #boutonBandeauPage2{
+    box-sizing: border-box;
+    width: 150px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 7px;
+    float: right;
+    margin-right: 60px;
+  }
+
+  #texteNosServices{
+    width: 40%;
+    height: 200px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+  }
+
+  #containerInfoSocallmedia{
+    width: 80%;
+    display: flex;
+    margin-left: 140px;
+    margin-top: 100px;
+    justify-content: space-between;
+  }
+
+  #containerTexteBouton{
+    width: 50%;
+    margin-right: 50px;
+  }
+
+  #boutonInfoSocallmedia{
+    box-sizing: border-box;
+    width: 180px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: left;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 956px) {
+  #bandeauPage2{
+    width: 80%;
+    height: 350px;
+    background-color: #2cabc0;
+    margin: 100px auto;
+    border-radius: 50px;
+  }
+
+  #texteNosServices{
+    width: 70%;
+    height: 200px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+  }
+
+  .footer{
+    width: 100%;
+    height: 530px;
+    margin-top: 100px;
+    background-image: url("/img/footerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  #logoFooter{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  #containerReseau{
+    width: 150px;
+    margin: 0 auto;
+    color: #FFFFFF;
+  }
+
+  #containerTelLocalisation{
+    margin: 20px auto;
+    width: 400px;
+    text-align: center;
+  }
+
+  #telephoneFooter{
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #localisationFooter{
+    margin-top: 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+  }
+
+  #linkedinFooter{
+    margin-left: 30px;
+  }
+
+  #mentionLegal{
+    width: 100%;
+    text-align: center;
+    background: rgb(44,172,193);
+    background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);
+  }
+}
+
+
+@media (max-width: 648px) {
+  #logoFooter{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  #boutonHeader{
+    display: none;
+  }
+
+  #bandeauPage2{
+    width: 80%;
+    height: 420px;
+    background-color: #2cabc0;
+    margin: 100px auto;
+    border-radius: 50px;
+  }
+
+  #bandeauPage2 h1{
+    margin-left: 50px;
+    padding-top: 50px;
+    color: white;
+  }
+
+  #bandeauPage2 p{
+    padding-top: 20px;
+    margin-left: 50px;
+    color: white;
+  }
+}
+
+@media (max-width: 580px) {
+  #logoHeader{
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #texteNosServices{
+    width: 50%;
+    height: 200px;
+    margin: 120px auto;
+  }
+
+  #boutonPage1{
+    box-sizing: border-box;
+    width: 179px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 150px auto;
+    padding-top: 10px;
+  }
+
+  #boutonBandeauPage2{
+    box-sizing: border-box;
+    width: 150px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 7px;
+    float: right;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 375px) {
+  #logoHeader{
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  #titrePage1{
+    font-size: 35px;
+    width: 70%;
+    height: 50px;
+    margin: 20px auto;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  #paragraphePage1{
+    font-size: 20px;
+    width: 70%;
+    height: 50px;
+    margin: 80px auto;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  #boutonPage1{
+    box-sizing: border-box;
+    width: 179px;
+    height: 70px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin: 200px auto;
+    padding-top: 10px;
+  }
+
+  #bandeauPage2{
+    width: 80%;
+    height: 550px;
+    background-color: #2cabc0;
+    margin: 50px auto;
+    border-radius: 50px;
+  }
+
+  #bandeauPage2 h1{
+    margin-left: 40px;
+    padding-top: 40px;
+    color: white;
+  }
+
+  #bandeauPage2 p{
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 40px;
+    color: white;
+  }
+
+  #boutonBandeauPage2{
+    box-sizing: border-box;
+    width: 150px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 6px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  #texteNosServices{
+    width: 80%;
+    height: 200px;
+    margin-left: 50px;
+  }
+
+  #containerVignette{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /*Vignette 1*/
+
+
+  #vignette1{
+    width: 98%;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #0e95e8;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: unset;
+    z-index: 2;
+    margin: 0 auto;
+  }
+
+  #vignette1 h1{
+    padding-top: 25px;
+    margin-left: 25px;
+  }
+
+  /*Container picto 1*/
+
+  #container1Picto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  #container1Picto:hover{
+    background-color: #24a3fa;
+  }
+
+  #picto1{
+    width: 85px;
+    padding-left: 20px;
+  }
+
+  #texteContainerPicto1{
+    font-size: 25px;
+    padding-left: 30px;
+  }
+
+  /*Container picto 2*/
+
+  #container2Picto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  #container2Picto:hover{
+    background-color: #24a3fa;
+  }
+
+  #picto2{
+    width: 85px;
+    padding-left: 20px;
+  }
+
+  #texteContainerPicto2{
+    font-size: 25px;
+    margin-top: 25px;
+    padding-left: 30px;
+  }
+
+  /*Container picto 3*/
+
+  #container3Picto{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  #container3Picto:hover{
+    background-color: #24a3fa;
+  }
+
+  #picto3{
+    width: 85px;
+    padding-left: 20px;
+  }
+
+  #texteContainerPicto3{
+    font-size: 25px;
+    margin-top: 30px;
+    padding-left: 30px;
+  }
+
+  /*Bouton vignette1*/
+
+  #boutonVignette1{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: right;
+    margin-left: 200px;
+    margin-top: 20px;
+  }
+
+  /*vignette 2*/
+
+  #vignette2{
+    width: 98%;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #2cabc0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 50px auto;
+  }
+
+  #vignette2 h1{
+    padding-top: 25px;
+    margin-left: 25px;
+  }
+
+  #texteVignette2{
+    margin-left: 25px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  #boutonVignette2{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: right;
+    margin-left: 200px;
+    margin-top: 120px;
+  }
+
+  /*vignette 3*/
+
+  #vignette3{
+    width: 98%;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0 auto;
+  }
+
+  #vignette3 h1{
+    padding-top: 25px;
+    margin-left: 25px;
+  }
+
+  #texteVignette3{
+    margin-left: 25px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  #boutonVignette3{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: right;
+    margin-left: 200px;
+    margin-top: 120px;
+  }
+
+  #containerInfoSocallmedia{
+    width: 80%;
+    display: flex;
+    margin: 80px auto;
+    justify-content: space-between;
+  }
+
+  #containerInfoSocallmedia img{
+    display: none;
+  }
+
+  #containerTexteBouton{
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+
+
 
 /*scrollbar*/
 
