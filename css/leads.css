@@ -8,7 +8,7 @@ html body{
 .header{
     background-image: url("/img/headerBackground.svg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: 180px;
     display: flex;
@@ -23,7 +23,7 @@ html body{
 
 #ongletHeader{
     display: flex;
-    width: 25%;
+    width: 35%;
     height: 20px;
     justify-content: space-between;
     font-size: 18px;
@@ -55,7 +55,7 @@ html body{
     background-image: url("/img/backgroundLeads.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: right;
 }
 
 
@@ -67,6 +67,8 @@ html body{
 
 #containerServicesEtImage{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .texteServices{
@@ -140,7 +142,195 @@ footer{
     width: 100%;
     text-align: center;
     background: rgb(44,172,193);
-    background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);}
+    background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    background-image: url("/img/footerBackground.svg");
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1100px) {
+    #ongletHeader {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    #imageHeader{
+        width: 100%;
+        height: 650px;
+        background-image: url("/img/backgroundLeadsMobile.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}
+
+@media (max-width: 956px) {
+    .footer{
+        width: 100%;
+        height: 530px;
+        margin-top: 100px;
+        background-image: url("/img/footerBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    #logoFooter{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    #containerReseau{
+        width: 150px;
+        margin: 0 auto;
+        color: #FFFFFF;
+    }
+
+    #containerTelLocalisation{
+        margin: 20px auto;
+        width: 400px;
+        text-align: center;
+    }
+
+    #telephoneFooter{
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+
+    #localisationFooter{
+        margin-top: 30px;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+
+    #linkedinFooter{
+        margin-left: 30px;
+    }
+
+    #mentionLegal{
+        width: 100%;
+        text-align: center;
+        background: rgb(44,172,193);
+        background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);
+    }
+
+    .header{
+        background-image: url("/img/headerBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 140px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+
+    #containerServicesEtImage{
+        width: 76%;
+        margin: 0 auto;
+    }
+
+    .containerImgGauche{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 50px auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .containerImgGauche img{
+        width: 100%;
+    }
+
+    .containerImgDroite{
+        display: flex;
+        width: 100%;
+        margin: 50px auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .containerImgDroite img{
+        width: 100%;
+    }
+
+    .texteServices{
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 648px) {
+    #logoFooter{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+    #boutonHeader{
+        display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    #logoHeader {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 510px) {
+
+    #containerServicesEtImage{
+        width: 76%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 470px) {
+    #logoHeader {
+        width: 80%;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 378px) {
+
+    #logoHeader {
+        width: 70%;
+        height: 50px;
+        margin: 20px auto;
+    }
+
+    .header{
+        background-image: url("/img/headerBackground.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 
 /*scrollbar*/
 

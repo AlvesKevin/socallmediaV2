@@ -602,6 +602,16 @@ a{
     background: rgb(44,172,193);
     background: linear-gradient(90deg, rgba(44,172,193,1) 0%, rgba(14,150,233,1) 100%);
   }
+
+  .header{
+    background-image: url("/img/headerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 
@@ -685,7 +695,7 @@ a{
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 470px) {
   #logoHeader{
     width: 80%;
     margin: 30px auto;
@@ -735,7 +745,7 @@ a{
   }
 
   #bandeauPage2 h1{
-    margin-left: 40px;
+    margin-left: 30px;
     padding-top: 40px;
     color: white;
   }
@@ -743,7 +753,7 @@ a{
   #bandeauPage2 p{
     width: 80%;
     padding-top: 20px;
-    margin-left: 40px;
+    margin-left: 30px;
     color: white;
   }
 
@@ -990,10 +1000,136 @@ a{
     width: 100%;
     margin-right: 0;
   }
+
+  #boutonVignette1{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: none;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #boutonVignette2{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: none;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #boutonVignette3{
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding-top: 10px;
+    float: none;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+
+  #vignette1{
+    width: 98%;
+    height: 550px;
+    border-radius: 50px;
+    background-color: #0e95e8;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: unset;
+    z-index: 2;
+    margin: 0 auto;
+  }
 }
 
+@media (max-width: 378px) {
 
+  #logoHeader{
+    width: 70%;
+    height: 50px;
+    margin: 20px auto;
+  }
 
+  #bandeauPage2 h1{
+    margin-left: 20px;
+  }
+
+  #bandeauPage2 p{
+    margin-left: 20px;
+    width: 250px;
+  }
+
+  .header{
+    background-image: url("/img/headerBackground.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #titrePage1{
+    font-size: 25px;
+    font-weight: bold;
+    width: 70%;
+    height: 50px;
+    margin: 20px auto;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  #bandeauPage2{
+    width: 80%;
+    height: 585px;
+    background-color: #2cabc0;
+    margin: 50px auto;
+    border-radius: 50px;
+  }
+
+  #bandeauPage2 h1{
+    margin-left: 30px;
+    padding-top: 40px;
+    color: white;
+  }
+
+  #bandeauPage2 p{
+    width: 80%;
+    padding-top: 20px;
+    margin-left: 30px;
+    color: white;
+  }
+}
 
 /*scrollbar*/
 
