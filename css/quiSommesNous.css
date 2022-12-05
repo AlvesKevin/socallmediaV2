@@ -8,10 +8,10 @@ html body {
 
 #imageHeader{
     width: 100%;
-    height: 550px;
+    height: 520px;
     background-image: url("/img/backgroundQuiSommesNous.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 }
 
@@ -66,12 +66,21 @@ html body {
 }
 
 #socallmediaChiffre{
-    width: 1000px;
+    width: 55%;
     height: 600px;
     background-image: url("/img/socallmediaChiffre.png");
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
+}
+
+#illustrationSofan{
+    width: 100%;
+    height: 560px;
+    background-image: url("/img/illustrationSofanMedia.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #titreSofanmedia{
@@ -155,10 +164,28 @@ html body {
 @media (max-width: 1280px) {
     #imageHeader{
         width: 100%;
-        height: 650px;
-        background-image: url("/img/backgroundLeadsMobile.png");
+        height: 700px;
+        background-image: url("/img/backgroundQuiSommesNousMobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #socallmediaChiffre{
+        width: 100%;
+        height: 400px;
+        background-image: url("/img/socallmediaChiffre.png");
         background-repeat: no-repeat;
         background-size: contain;
+        margin: 0 auto;
+    }
+
+    #illustrationSofan{
+        width: 100%;
+        height: 650px;
+        background-image: url("/img/backgroundQuiSommesNousSofanMobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
     }
 }
