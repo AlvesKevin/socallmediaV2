@@ -5,6 +5,11 @@ html body{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 .header{
     background-image: url("/img/headerBackground.svg");
     background-repeat: no-repeat;
@@ -28,6 +33,18 @@ html body{
     justify-content: space-between;
     font-size: 18px;
     margin-top: 50px;
+    color: white;
+}
+
+#ongletAccueil{
+    color: white;
+}
+
+#ongletQuiSommesNous{
+    color: white;
+}
+
+#ongletNosServices{
     color: white;
 }
 

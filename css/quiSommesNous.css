@@ -6,6 +6,22 @@ html body {
     overflow-x: hidden;
 }
 
+a{
+    text-decoration: none;
+}
+
+#ongletAccueil{
+    color: white;
+}
+
+#ongletQuiSommesNous{
+    color: white;
+}
+
+#ongletNosServices{
+    color: white;
+}
+
 #imageHeader{
     width: 100%;
     height: 520px;

@@ -92,19 +92,19 @@ a{
 
 #boutonPage1{
   box-sizing: border-box;
-  width: 179px;
-  height: 70px;
+  width: 200px;
+  height: 90px;
   background: #FFFFFF;
   border: 2px solid #000000;
   border-radius: 50px;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 24px;
   text-align: center;
   color: #000000;
   margin: 100px auto;
-  padding-top: 10px;
+  padding-top: 17px;
 }
 
 #elementBackground{
@@ -125,6 +125,7 @@ a{
   background-color: #2cabc0;
   margin: 100px auto;
   border-radius: 50px;
+  box-shadow: -33px -28px 0px 2px rgba(45, 199, 195, 0.81);
 }
 
 #bandeauPage2 h1{
@@ -170,7 +171,7 @@ a{
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
+  margin: 40px auto;
   justify-content: space-between;
 }
 
@@ -187,6 +188,8 @@ a{
   color: white;
   position: unset;
   z-index: 2;
+  box-shadow: -33px -28px 0px 2px rgba(1, 66, 131, 0.81);
+
 }
 
 #vignette1 h1{
@@ -296,6 +299,7 @@ a{
   flex-direction: column;
   color: white;
   margin-top: 100px;
+  box-shadow: -33px -28px 0px 2px rgba(27, 120, 148, 0.81);
 }
 
 #vignette2 h1{
@@ -339,6 +343,7 @@ a{
   flex-direction: column;
   color: white;
   margin-top: 40px;
+  box-shadow: -33px -28px 0px 2px rgba(38, 37, 37, 0.81);
 }
 
 #vignette3 h1{
