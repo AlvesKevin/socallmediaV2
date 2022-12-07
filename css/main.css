@@ -29,30 +29,34 @@ a{
 
 #logoHeader{
   width: 400px;
-  height: 80px;
-  margin: 15px;
+  height: 100px;
+  margin: 35px;
 }
 
 #ongletHeader{
   display: flex;
-  width: 35%;
+  width: 900px;
   height: 20px;
   justify-content: space-between;
   font-size: 18px;
-  margin-top: 50px;
+  margin-top: 65px;
   color: white;
 }
 
 #ongletAccueil{
-  color: white;
+  color: black;
 }
 
 #ongletQuiSommesNous{
-  color: white;
+  color: black;
 }
 
 #ongletNosServices{
-  color: white;
+  color: black;
+}
+
+#ongletTelemarketing{
+  color: black;
 }
 
 #boutonHeader{
@@ -68,7 +72,7 @@ a{
   line-height: 24px;
   text-align: center;
   color: #000000;
-  margin-top: 25px;
+  margin-top: 35px;
   padding-top: 10px;
   margin-right: 15px;
 }
@@ -93,7 +97,7 @@ a{
 #boutonPage1{
   box-sizing: border-box;
   width: 200px;
-  height: 90px;
+  height: 80px;
   background: #FFFFFF;
   border: 2px solid #000000;
   border-radius: 50px;

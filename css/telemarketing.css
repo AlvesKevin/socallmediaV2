@@ -5,6 +5,10 @@ html body {
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .header{
     background-image: url("/img/headerBackground.svg");
     background-repeat: no-repeat;
@@ -15,45 +19,36 @@ html body {
     justify-content: space-between;
 }
 
-a{
-    text-decoration: none;
-}
-
-#ongletAccueil{
-    color: white;
-}
-
-#ongletQuiSommesNous{
-    color: white;
-}
-
-#ongletNosServices{
-    color: white;
-}
-
-#imageHeader{
-    width: 100%;
-    height: 550px;
-    background-image: url("/img/illustrationTelemarketing.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
 #logoHeader{
     width: 400px;
     height: 80px;
-    margin: 15px;
+    margin: 35px;
 }
 
 #ongletHeader{
     display: flex;
-    width: 25%;
+    width: 900px;
     height: 20px;
     justify-content: space-between;
     font-size: 18px;
-    margin-top: 50px;
+    margin-top: 65px;
     color: white;
+}
+
+#ongletAccueil{
+    color: black;
+}
+
+#ongletQuiSommesNous{
+    color: black;
+}
+
+#ongletNosServices{
+    color: black;
+}
+
+#ongletTelemarketing{
+    color: black;
 }
 
 #boutonHeader{
@@ -69,9 +64,18 @@ a{
     line-height: 24px;
     text-align: center;
     color: #000000;
-    margin-top: 25px;
+    margin-top: 35px;
     padding-top: 10px;
     margin-right: 15px;
+}
+
+#imageHeader{
+    width: 100%;
+    height: 550px;
+    background-image: url("/img/illustrationTelemarketing.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 #containerTexte{
