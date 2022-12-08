@@ -79,6 +79,14 @@ a{
     margin-right: 15px;
 }
 
+#boutonHeader:hover{
+    background-color: #e0e0e0;
+}
+
+#boutonHeader a{
+    color: black;
+}
+
 #containerTexteQuiSommesNous{
     width: 76%;
     margin: 100px auto;
@@ -119,13 +127,33 @@ a{
 }
 
 #boutonSofanmedia{
-    width: 258px;
-    height: 98px;
-    background-image: url("/img/boutonSofanmedia.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(212,51,126,1) 0%, rgba(247,105,60,1) 100%);
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
     margin: 50px auto;
+    padding-top: 17px;
 }
+
+#boutonSofanmedia a{
+    color: white;
+}
+
+#boutonSofanmedia:hover{
+    background: linear-gradient(90deg, rgb(227, 42, 129) 0%, rgb(248, 122, 81) 100%);
+
+}
+
+
+
 
 .footer{
     width: 100%;
@@ -187,7 +215,7 @@ a{
         height: 700px;
         background-image: url("/img/backgroundQuiSommesNousMobile.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
         background-position: center;
     }
 

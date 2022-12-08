@@ -69,6 +69,14 @@ a{
     margin-right: 15px;
 }
 
+#boutonHeader:hover{
+    background-color: #e0e0e0;
+}
+
+#boutonHeader a{
+    color: black;
+}
+
 #imageHeader{
     width: 100%;
     height: 550px;
@@ -137,6 +145,14 @@ a{
     margin: 0 auto;
 }
 
+#boutonFooter a{
+    color: black;
+}
+
+#boutonFooter:hover{
+    background-color: #e0e0e0;
+}
+
 .footer{
     width: 100%;
     height: 300px;
@@ -195,7 +211,7 @@ a{
     #imageHeader{
         width: 100%;
         height: 650px;
-        background-image: url("/img/backgroundLeadsMobile.png");
+        background-image: url("/img/backgroundLeadsMobile2.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

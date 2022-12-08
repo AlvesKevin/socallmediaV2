@@ -70,6 +70,14 @@ a{
     margin-right: 15px;
 }
 
+#boutonHeader:hover{
+    background-color: #e0e0e0;
+}
+
+#boutonHeader a{
+    color: black;
+}
+
 #imageHeader{
     width: 100%;
     height: 550px;

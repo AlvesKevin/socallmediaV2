@@ -1,0 +1,902 @@
+html body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#copyright{
+  margin: 20px auto;
+  width: 400px;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#logoHeader{
+  width: 400px;
+  height: 100px;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.navBar{
+  display: flex;
+  width: 600px;
+  height: 25px;
+  justify-content: space-between;
+  margin: 60px auto;
+}
+
+.btn{
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50px;
+  border: 2px solid #000000;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+#numero{
+  width: 300px;
+  height: 60px;
+  font-size: 40px;
+  margin-top: 45px;
+  margin-right: 300px;
+}
+
+.btn:hover{
+  background-color: #ececec;
+  cursor: pointer;
+}
+
+#pageAccueil{
+  width: 100%;
+  height: 820px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  background-image: url("/imgLP/backgroundPage.png");
+}
+
+#containerTexteAccueil{
+  width: 650px;
+  height: 650px;
+  margin-left: 200px;
+  color: white;
+}
+
+#titreAccueil{
+  width: 500px;
+  height: 63px;
+  margin-top: 160px;
+  margin-left: 120px;
+}
+
+#paragrapheAccueil{
+  width: 450px;
+  font-size: 20px;
+  margin-top: 120px;
+  margin-left: 120px;
+}
+
+#backgroundHeader{
+  width: 55%;
+}
+
+#containerTexteAccueil .btn{
+  margin-left: 120px;
+  margin-top: 100px;
+  color: #000000;
+}
+
+#pageNosOffres{
+  width: 90%;
+  margin: 0 auto;
+}
+
+#titreNosOffres{
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 100px auto;
+  width: 210px;
+}
+
+#paragrapheNosOffres{
+  margin: 0 auto;
+  font-size: 20px;
+  width: 440px;
+}
+
+#containerNosOffres{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#telemarketing{
+  width: 500px;
+  height: 560px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+#logoTelemarketing{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#titreTelemarketing{
+  width: 300px;
+  float: right;
+  margin-right: 70px;
+}
+
+#paragrapheTelemarketing{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#prospection{
+  width: 500px;
+  height: 560px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+#logoProspection{
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+#titreProspection{
+  width: 300px;
+  float: right;
+  margin-right: 70px;
+}
+
+#paragrapheProspection{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#leadsManagement{
+  width: 500px;
+  height: 560px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#logoLeadsManagement{
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#titreLeadsManagement{
+  width: 300px;
+  float: right;
+  margin-right: 70px;
+}
+
+#paragrapheLeadsManagement{
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+#pageContact{
+  margin-top: 100px;
+  background-color: #efefef;
+}
+
+#containerContactForm{
+  width: 70%;
+  margin: 70px auto;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#titreContact{
+  width: 170px;
+  font-size: 40px;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+#containerContact{
+  width: 350px;
+  height: 400px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+#logoQuestion{
+  width: 70px;
+  height: 70px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+#titreQuestion{
+  width: 200px;
+  font-size: 25px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#paragrapheQuestion{
+  width: 250px;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+#containerForm{
+  width: 400px;
+  height: 650px;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  margin-bottom: 70px;
+  padding: 30px;
+  margin-top: 100px;
+  margin-right: 200px;
+}
+
+#containerForm2{
+  width: 80%;
+}
+
+#containerQuestionForm{
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#textePrenom{
+  width: 200px;
+}
+
+#nomPrenom{
+  width: 250px;
+  height: 45px;
+  border: none;
+  margin-top: 10px;
+  background-color: #eee9e9;
+}
+
+#texteMail{
+  width: 200px;
+  margin-top: 10px;
+}
+
+#mail{
+  width: 250px;
+  height: 45px;
+  border: none;
+  margin-top: 10px;
+  background-color: #eee9e9;
+}
+
+#texteTelephone{
+  width: 200px;
+  margin-top: 10px;
+}
+
+#telephone{
+  width: 250px;
+  height: 45px;
+  border: none;
+  margin-top: 10px;
+  background-color: #eee9e9;
+}
+
+#texteVotreProjet{
+  width: 200px;
+  margin-top: 50px;
+}
+
+#containerProjet{
+  display: flex;
+  width: 420px;
+  flex-direction: column;
+  margin-right: 70px;
+}
+
+#votreProjet{
+  margin-top: 20px;
+  border: none;
+  background-color: #eee9e9;
+}
+
+footer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logoFooter{
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+}
+
+#containerContactFooter{
+  display: flex;
+  width: 740px;
+  height: 32px;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#containerContactFooter span{
+  font-weight: bold;
+}
+
+#aPropos{
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url("/imgLP/backgroundAPropos.png");
+  color: white;
+}
+
+#containerAPropos{
+  width: 500px;
+  font-size: 30px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  margin-top: 125px;
+  color: white;
+}
+
+#titreAPropos{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#paragrapheAPropos{
+  margin-top: 20px;
+}
+
+#carte{
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1109px){
+
+  #pageAccueil{
+    height: 1500px;
+    color: white;
+  }
+}
+
+
+@media (max-width: 1870px){
+
+  #containerContact{
+    width: 100%;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+  #titreQuestion{
+    width: 100%;
+    font-size: 30px;
+    margin-left: 20px;
+    float: none;
+    margin-top: 30px;
+  }
+
+  #paragrapheQuestion{
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 1085px){
+
+  .navBar{
+    display: none;
+  }
+
+  header .btn{
+    display: none;
+  }
+
+}
+
+@media (max-width: 1505px){
+
+  #logoHeader{
+    margin: 0 auto;
+  }
+
+  #containerTexteAccueil{
+    margin: 0 auto;
+  }
+
+  #containerForm{
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1078px){
+  #numero{
+    display: none;
+  }
+}
+
+@media (max-width: 975px){
+
+  #containerForm{
+    width: 100%;
+    height: 650px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-bottom: 70px;
+    padding: 30px;
+    margin: 100px auto;
+  }
+
+  .navBar{
+    display: none;
+  }
+
+  header .btn{
+    display: none;
+  }
+
+  #containerTexteAccueil{
+    width: 500px;
+    color: white;
+  }
+
+  #titreAccueil{
+    width: 430px;
+    height: 63px;
+    margin-top: 160px;
+    margin-left: 30px;
+  }
+
+  #paragrapheAccueil{
+    width: 400px;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 30px;
+  }
+
+  #containerTexteAccueil .btn{
+    margin-left: 30px;
+    margin-top: 100px;
+    color: #000000;
+  }
+
+  #pageNosOffres{
+    width: 90%;
+    margin-left: 0;
+  }
+
+  #titreNosOffres{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  #paragrapheNosOffres{
+    margin-left: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 924px){
+
+  #containerContactForm{
+    width: 70%;
+    margin: 70px auto;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #telemarketing{
+    width: 90%;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  #logoTelemarketing{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #titreTelemarketing{
+    width: 200px;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  #paragrapheTelemarketing{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
+  #prospection{
+    width: 90%;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  #logoProspection{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+
+  #titreProspection{
+    width: 200px;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  #paragrapheProspection{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
+  #leadsManagement{
+    width: 90%;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+  }
+
+  #logoLeadsManagement{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #titreLeadsManagement{
+    width: 200px;
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+  }
+
+  #paragrapheLeadsManagement{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 14px;
+  }
+
+  #containerContact{
+    width: 350px;
+    height: 350px;
+    background: #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-bottom: 30px;
+  }
+
+  #logoQuestion{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  #titreQuestion{
+    width: 150px;
+    font-size: 20px;
+    float: right;
+    margin-top: 30px;
+  }
+
+  #paragrapheQuestion{
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+  #containerQuestionForm{
+    width: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #textePrenom{
+    width: 200px;
+  }
+
+  #nomPrenom{
+    width: 200px;
+    height: 45px;
+    border: none;
+    margin-top: 10px;
+    background-color: #ffffff;
+  }
+
+  #texteMail{
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  #mail{
+    width: 200px;
+    height: 45px;
+    border: none;
+    margin-top: 10px;
+    background-color: #ffffff;
+  }
+
+  #texteTelephone{
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  #telephone{
+    width: 200px;
+    height: 45px;
+    border: none;
+    margin-top: 10px;
+    background-color: #ffffff;
+  }
+
+  #containerProjet{
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  #votreProjet{
+    background-color: #ffffff;
+  }
+
+  #containerNosOffres{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 50px;
+  }
+
+  #containerContactFooter{
+    display: flex;
+    width: 100%;
+    height: 32px;
+    margin-top: 10px;
+    margin-right: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  footer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  #pageContact{
+    margin-top: 100px;
+    background-color: #efefef;
+    height: 1300px;
+  }
+
+  #aPropos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+  }
+
+  #containerAPropos{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0;
+    margin-bottom: 100px;
+    color: white;
+  }
+
+  #titreAPropos{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #paragrapheAPropos{
+    margin-top: 20px;
+  }
+
+  #carte{
+    width: 100%;
+    margin-right: 250px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px){
+
+  #containerForm{
+    width: 300px;
+    height: 670px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    padding: 30px;
+    margin: 100px auto;
+  }
+
+  #logoHeader{
+    width: 100%;
+  }
+
+  #backgroundHeader{
+    display: none;
+  }
+
+  #containerTexteAccueil{
+    width: 100%;
+    color: white;
+  }
+
+  #titreAccueil{
+    width: 400px;
+    height: 63px;
+    margin-top: 100px;
+    margin-left: 30px;
+  }
+
+  #paragrapheAccueil{
+    margin-top: 150px;
+    width: 300px;
+    font-size: 20px;
+  }
+
+  #paragrapheTelemarketing{
+    width: 200px;
+    margin-top: 110px;
+    font-size: 12px;
+  }
+
+  #paragrapheProspection{
+    width: 200px;
+    font-size: 12px;
+    margin-top: 110px;
+  }
+
+  #paragrapheLeadsManagement{
+    width: 200px;
+    font-size: 12px;
+    margin-top: 110px;
+  }
+
+  #pageNosOffres{
+    margin-top: 100px;
+  }
+
+  #aPropos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+  }
+
+  #containerAPropos{
+    width: 500px;
+    font-size: 20px;
+    margin-left: 0;
+    margin-bottom: 100px;
+    color: white;
+  }
+
+  #titreAPropos{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  #paragrapheAPropos{
+    margin-top: 20px;
+  }
+
+  #carte{
+    width: 100%;
+    margin-right: 250px;
+    margin-left: 0;
+  }
+
+  #paragrapheNosOffres{
+    width: 100%;
+  }
+}
+
+
+
+
+
