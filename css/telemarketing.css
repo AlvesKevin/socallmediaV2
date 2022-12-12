@@ -48,7 +48,7 @@ a{
 }
 
 #ongletTelemarketing{
-    color: black;
+    color: #0E96E9;
 }
 
 #boutonHeader{
@@ -215,6 +215,11 @@ a{
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
+    }
+
+    #ongletHeader{
+        font-size: 15px;
+        margin-right: 20px;
     }
 }
 

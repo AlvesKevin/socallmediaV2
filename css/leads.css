@@ -45,7 +45,7 @@ a{
 }
 
 #ongletNosServices{
-    color: black;
+    color: #0E96E9;
 }
 
 #ongletTelemarketing{
@@ -199,6 +199,11 @@ footer{
         background-size: contain;
         background-position: center;
     }
+
+    #ongletHeader{
+        font-size: 15px;
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 956px) {
@@ -303,8 +308,6 @@ footer{
     .texteServices{
         width: 100%;
     }
-
-
 }
 
 @media (max-width: 648px) {

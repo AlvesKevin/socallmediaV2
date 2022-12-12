@@ -47,7 +47,7 @@ a{
 }
 
 #ongletAccueil{
-  color: black;
+  color: #0E96E9;
 }
 
 #ongletQuiSommesNous{
@@ -533,6 +533,11 @@ a{
 }
 
 @media (max-width: 1280px) {
+  #ongletHeader{
+    font-size: 15px;
+    margin-right: 20px;
+  }
+
   #bandeauPage2{
     width: 80%;
     height: 300px;
