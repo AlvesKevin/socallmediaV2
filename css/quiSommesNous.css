@@ -45,20 +45,123 @@ a{
     color: white;
 }
 
-#ongletAccueil{
-    color: black;
+#ongletNosServices{
+    color: #000000;
 }
 
-#ongletQuiSommesNous{
+#ongletNosServices:hover{
     color: #0E96E9;
 }
 
-#ongletNosServices{
+#ongletAccueil{
+    color: #000000;
+}
+
+#ongletAccueil:hover{
+    color: #0E96E9;
+
+}
+
+#ongletQuiSommesNous{
     color: black;
 }
 
+#ongletQuiSommesNous:hover{
+    color: #0e95e8;
+}
+
 #ongletTelemarketing{
-    color: black;
+    color: #0e95e8;
+}
+
+/*---------------------------------*/
+
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#menu-demo2, #menu-demo2 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:center;
+}
+#menu-demo2 li{
+    display:inline-block;
+    position:relative;
+}
+
+#menu-demo2 ul li{
+    display:inherit;
+}
+
+#menu-demo2 ul{
+    position:absolute;
+    z-index: 1000;
+    max-height:0;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+    -moz-transition: .4s all .4s;
+    -webkit-transition: .4s all .4s;
+    transition: .4s all .4s;
+}
+#menu-demo2 li:hover ul{
+    max-height:15em;
+    color: #0e95e8;
+}
+/* background des liens menus */
+
+#menu-demo2 li{
+    background-color: #ffffff;
+}
+
+#menu-demo2 li ul li:nth-child(1){
+    background-color: #ffffff;
+    border: 1px solid #090909;
+}
+
+#menu-demo2 li ul li:nth-child(2){
+    background-color: #ffffff;
+    border: 1px solid #090909;
+    border-top: 0 solid #000000;
+}
+/* background des liens sous menus */
+
+#menu-demo2 li:last-child li{
+    color: #ffffff;
+}
+
+#menu-demo2 li:last-child li{
+    color: #0e95e8;
+}
+
+/* background des liens menus et sous menus au survol */
+#menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
+    color: #0e95e8;
+}
+
+/* les a href */
+#menu-demo2 a{
+    text-decoration:none;
+    display:block;
+    padding:8px 32px;
+    color: #000000;
+}
+#menu-demo2 ul a{
+    padding:8px 0;
+}
+#menu-demo2 li:hover li a{
+    color: #000000;
+    text-transform:inherit;
+}
+#menu-demo2 li:hover a, #menu-demo2 li li:hover a{
+    color: #0e95e8;
+}
+
+#menu-demo2 li a:hover{
+    background-color: #FFFFFF;
 }
 
 #boutonHeader{
@@ -93,6 +196,24 @@ a{
     text-align: center;
 }
 
+#containerTexteQuiSommesNous h2{
+    font-size: 36px;
+}
+
+#containerTexteQuiSommesNous p:nth-child(2){
+    font-size: 20px;
+    text-align: left;
+
+}
+
+#containerTexteQuiSommesNous p:nth-child(3){
+    font-size: 20px;
+    text-align: left;
+}
+
+
+
+
 #socallmediaChiffre{
     width: 55%;
     height: 600px;
@@ -125,6 +246,11 @@ a{
     margin: 0 auto;
     text-align: center;
 }
+
+#containerTexteSofanmedia{
+    font-size: 20px;
+}
+
 
 #boutonSofanmedia{
     box-sizing: border-box;
