@@ -199,6 +199,11 @@ ul li {
     margin-bottom: 100px;
 }
 
+#containerTexte p{
+    font-size: 20px;
+}
+
+
 #containerServicesEtImage{
     width: 100%;
     display: flex;

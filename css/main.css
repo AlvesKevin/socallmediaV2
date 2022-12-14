@@ -52,7 +52,7 @@ a{
 
 #ongletHeader{
   display: flex;
-  width: 700px;
+  width: 900px;
   height: 20px;
   justify-content: space-between;
   font-size: 18px;
@@ -62,12 +62,10 @@ a{
 
 #ongletAccueil{
   color: #0E96E9;
-  padding-top: 5px;
 }
 
 #ongletQuiSommesNous{
   color: black;
-  padding-top: 5px;
 }
 
 #ongletQuiSommesNous:hover{

@@ -63,7 +63,7 @@ a{
 }
 
 #ongletQuiSommesNous{
-    color: black;
+    color: #0e95e8;
 }
 
 #ongletQuiSommesNous:hover{
@@ -71,7 +71,7 @@ a{
 }
 
 #ongletTelemarketing{
-    color: #0e95e8;
+    color: #000000;
 }
 
 /*---------------------------------*/
@@ -196,19 +196,20 @@ ul li {
     text-align: center;
 }
 
-#containerTexteQuiSommesNous h2{
-    font-size: 36px;
+#containerTexteQuiSommesNous img{
+    margin: 0 auto;
+    width: 35%;
 }
 
 #containerTexteQuiSommesNous p:nth-child(2){
-    font-size: 20px;
-    text-align: left;
-
+    font-size: 25px;
+    text-align: center;
 }
 
 #containerTexteQuiSommesNous p:nth-child(3){
-    font-size: 20px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
+
 }
 
 
@@ -248,7 +249,7 @@ ul li {
 }
 
 #containerTexteSofanmedia{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
