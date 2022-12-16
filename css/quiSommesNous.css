@@ -198,7 +198,8 @@ ul li {
 
 #containerTexteQuiSommesNous img{
     margin: 0 auto;
-    width: 35%;
+    width: 400px;
+    height: 250px;
 }
 
 #containerTexteQuiSommesNous p:nth-child(2){
@@ -211,9 +212,6 @@ ul li {
     text-align: center;
 
 }
-
-
-
 
 #socallmediaChiffre{
     width: 55%;
