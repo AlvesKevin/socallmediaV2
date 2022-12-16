@@ -234,10 +234,10 @@ ul li {
 }
 
 #titreSofanmedia{
-    width: 420px;
-    height: 100px;
-    margin: 50px auto;
-    background-image: url("/img/titreSofanmedia.png");
+    width: 400px;
+    height: 250px;
+    margin: 10px auto;
+    background-image: url("/img/logoSofanemedia.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
